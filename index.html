@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <title>3-dars</title>
+</head>
+<body id="mainBody">
+
+    <header></header>
+    
+    <main>
+        <section>
+            
+            <div class="container mt-5 mb-5">
+                <h3 class="text-center mb-4">Movies Catalog</h3>
+                
+                <div class="row">
+                    <div class="col-4">
+                        <div class="">
+                            <form>
+                                <input class="form-control form-control-sm mb-3" type="text" placeholder="Movie Name">
+                                <input class="form-control form-control-sm mb-3" type="number" placeholder="IMDB rating" min="0" max="10" step="0.1">
+                                
+                                <select class="form-select form-select-sm mb-3">
+                                    <option selected hidden>All</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="2">Three</option>
+                                </select>
+                                
+                                <select class="form-select form-select-sm mb-3">
+                                    <option selected hidden>Rating(First high)</option>
+                                    <option value="1">Rating(First low)</option>
+                                </select>
+                                
+                                <button type="submit" class="btn btn-primary text-center w-100 mb-5">Search</button>
+                                
+                            </form>
+                            
+                            <h3 class="mb-2">Bookmarked movies</h3>
+                            
+                            <ol class="list-group">
+                                <li class="list-group-item">
+                                    <div class="p-2">
+                                        <h4 class="h5">Avengers: Infinity War</h4>
+                                        <button class=" btn btn-danger">Remove</button>
+                                    </div>
+                                </li>
+                                
+                                <li class="list-group-item">
+                                    <div class="p-2">
+                                        <h4 class="h5">The Avengers</h4>
+                                        <button class=" btn btn-danger">Remove</button>
+                                    </div>
+                                </li>
+                                
+                                <li class="list-group-item">
+                                    <div class="p-2">
+                                        <h4 class="h5">12 Years a Slave</h4>
+                                        <button class=" btn btn-danger">Remove</button>
+                                    </div>
+                                </li>
+                                
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <div class="col-8">
+                        <h4>Search results:39</h4>
+                        
+                        <div class="alert alert-info" role="alert">
+                            Use the form on the left to search for a movie
+                        </div>
+                        
+                        <div class="row mb-5 card__wrapper">
+                            <div class="col-6">
+                                <div class="card">
+                                    <img src="./images/okala1.jpg" class="card-img-top mb-2" alt="okala">
+                                    <div class="card-body">
+
+                                        <h4 class="h4">Avengers: Infinity War</h3>
+
+                                     
+                                    </div>
+                                </div>
+                            </div>
+
+                          
+
+                    </div>
+
+                    <nav>
+                        <ul class="pagination mt-5 d-flex align-items-center justify-content-center">
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+    <footer></footer> 
+    
+    <script src="./js/movies.js"></script>
+       
+    <script src="./js/main.js"></script>
+    
+    
+</body>
+</html>
+
